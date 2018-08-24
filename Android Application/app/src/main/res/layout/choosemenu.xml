@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/back">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:layout_marginBottom="40dp"
+
+        android:weightSum="1">
+        <ImageView
+            android:id="@+id/gif"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="40dp"
+            style="?android:attr/borderlessButtonStyle"/>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            card_view:cardCornerRadius="2dp"
+            card_view:contentPadding="10dp"
+            card_view:cardBackgroundColor="#60e7eae7"
+            card_view:cardElevation="5dp">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <android.support.v7.widget.AppCompatButton
+                    android:id="@+id/dataset"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="220dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:background="@drawable/buttonshape"
+                    android:padding="12dp"
+                    android:text="Help us to make dataset"
+                    android:textColor="#080808"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="12dp"
+                    />
+
+                <android.support.v7.widget.AppCompatButton
+                    android:id="@+id/onlinerec"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="220dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/buttonshape"
+                    android:shadowColor="#A8A8A8"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:text="Static Recognition"
+                    android:textColor="#0d0d0d"
+                    android:textSize="15sp"
+                    android:layout_marginTop="10dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_below="@id/dataset"/>
+
+                <android.support.v7.widget.AppCompatButton
+                    android:id="@+id/activityrec"
+                    android:layout_width="220dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/buttonshape"
+                    android:padding="12dp"
+                    android:text="Adaptive Recognition"
+                    android:textColor="#0b0b0b"
+                    android:layout_below="@+id/onlinerec"
+                    android:layout_alignStart="@+id/onlinerec" />
+
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+        <EditText
+            android:id="@+id/passw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="1dp"
+            android:text="Your activity"
+            android:textColor="#4169E1"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:visibility="invisible" />
+        <EditText
+            android:text="Your activity"
+            android:id="@+id/usern"
+            android:textSize="5sp"
+            android:textStyle="bold"
+            android:textColor="#4169E1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:visibility="invisible"
+            android:layout_centerInParent="true" />
+
+
+
+    </LinearLayout>
+</ScrollView>

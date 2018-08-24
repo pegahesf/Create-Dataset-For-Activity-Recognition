@@ -1,0 +1,52 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.RandomForest -P 100 -I 100 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1
+Relation:     activity_recognition_PAMS01-weka.filters.unsupervised.attribute.Remove-R1-2,63-67
+Instances:    337
+Attributes:   121
+              [list of attributes omitted]
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+RandomForest
+
+Bagging with 100 iterations and base learner
+
+weka.classifiers.trees.RandomTree -K 0 -M 1.0 -V 0.001 -S 1 -do-not-check-capabilities
+
+Time taken to build model: 0.4 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         303               89.911  %
+Incorrectly Classified Instances        34               10.089  %
+Kappa statistic                          0.8728
+Mean absolute error                      0.0893
+Root mean squared error                  0.1823
+Relative absolute error                 33.3892 %
+Root relative squared error             49.8604 %
+Total Number of Instances              337     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Sitting
+                 1.000    0.004    0.983      1.000    0.992      0.990    1.000     1.000     Standing
+                 0.925    0.031    0.902      0.925    0.914      0.886    0.987     0.975     Running
+                 0.794    0.013    0.871      0.794    0.831      0.814    0.971     0.826     Walking
+                 0.537    0.010    0.880      0.537    0.667      0.657    0.941     0.814     DownStairs
+                 0.979    0.074    0.838      0.979    0.903      0.866    0.984     0.961     UpStairs
+Weighted Avg.    0.899    0.032    0.901      0.899    0.893      0.873    0.982     0.943     
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f   <-- classified as
+ 28  0  0  0  0  0 |  a = Sitting
+  0 59  0  0  0  0 |  b = Standing
+  0  0 74  0  1  5 |  c = Running
+  0  1  0 27  1  5 |  d = Walking
+  0  0  8  3 22  8 |  e = DownStairs
+  0  0  0  1  1 93 |  f = UpStairs
+

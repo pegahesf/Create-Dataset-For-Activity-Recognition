@@ -1,0 +1,16 @@
+<html>
+<body bgcolor="white">
+<table width="100%" height="100%">
+    <tr>
+        <td align="center" valign="center">
+            <font color="gray">Some text you display</font>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <img src="gi.gif">
+        </td>
+    </tr>
+</table>
+</body>

@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/back">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:layout_marginBottom="40dp"
+
+        android:weightSum="1">
+
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="fill_parent"
+            android:layout_height="180dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            card_view:cardCornerRadius="2dp"
+            card_view:contentPadding="10dp"
+            card_view:cardBackgroundColor="#60e7eae7"
+            card_view:cardElevation="5dp"
+            >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <!-- ACC Label -->
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:textStyle="bold"
+                    android:layout_weight="0.08"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentStart="true">
+
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:src="@drawable/acc"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_marginBottom="5dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_gravity="center_horizontal" />
+                        <TextView
+
+                            android:layout_gravity="center"
+                            android:textSize="15sp"
+                            android:textColor="#212121"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="10dp"
+                            android:text="Accelerometer Sensor Data :"
+                            android:shadowColor="#eef0f1"
+                            android:shadowRadius="2"
+                            android:shadowDx="1"
+                            android:shadowDy="1"
+                            android:textStyle="bold"/>
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="@android:color/darker_gray"/>
+                    <TextView
+
+                        android:id="@+id/acc"
+                        android:textSize="11sp"
+                        android:textColor="#4169E1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="15dp"
+                        android:text="Accelerometer"
+                        tools:layout_marginBottom="5dp"
+                        android:textStyle="bold"/>
+
+
+
+                </android.support.design.widget.TextInputLayout>
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="fill_parent"
+            android:layout_height="180dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            card_view:cardCornerRadius="2dp"
+            card_view:contentPadding="10dp"
+            card_view:cardBackgroundColor="#60e7eae7"
+            card_view:cardElevation="5dp">
+
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+                <!-- Gyro Label -->
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:textStyle="bold">
+
+
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:src="@drawable/gyro"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_marginBottom="5dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_gravity="center_horizontal" />
+                        <TextView
+
+                            android:layout_gravity="center"
+                            android:textSize="15sp"
+                            android:textColor="#212121"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="10dp"
+                            android:text="Gyroscope Sensor data :"
+                            android:shadowColor="#eef0f1"
+                            android:shadowRadius="2"
+                            android:shadowDx="1"
+                            android:shadowDy="1"
+                            android:textStyle="bold"/>
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="@android:color/darker_gray"/>
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:id="@+id/gyro"
+                        android:textSize="11sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:text="Gyro"
+                        android:textColor="#4169E1"/>
+
+                </android.support.design.widget.TextInputLayout>
+
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            card_view:cardCornerRadius="2dp"
+            card_view:contentPadding="10dp"
+            card_view:cardBackgroundColor="#60e7eae7"
+            card_view:cardElevation="5dp">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="10dp"
+                    android:text="Select your Activity"
+                    android:textColor="#212121"
+                    android:shadowColor="#eef0f1"
+                    android:shadowRadius="2"
+                    android:shadowDx="1"
+                    android:shadowDy="1"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    tools:layout_marginBottom="5dp" />
+
+                <Spinner
+                    android:id="@+id/spinner1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="0.05"
+                    android:drawSelectorOnTop="true"
+                    android:dropDownSelector="#cceddbdb"
+                    android:textColor="#4169E1"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            card_view:cardCornerRadius="2dp"
+            card_view:contentPadding="10dp"
+            card_view:cardBackgroundColor="#60e7eae7"
+            card_view:cardElevation="5dp">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+                <TextView
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:text="Select your position"
+                    android:textColor="#212121"
+                    android:shadowColor="#eef0f1"
+                    android:shadowRadius="2"
+                    android:shadowDx="1"
+                    android:shadowDy="1"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    tools:layout_marginBottom="5dp" />
+
+                <Spinner
+
+                    android:id="@+id/spinner2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="0.05"
+                    android:drawSelectorOnTop="true"
+                    android:dropDownSelector="#cceddbdb"
+                    android:textColor="#4169E1"
+                    android:textSize="15sp" />
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            card_view:cardCornerRadius="2dp"
+            card_view:contentPadding="10dp"
+            card_view:cardBackgroundColor="#60e7eae7"
+            card_view:cardElevation="5dp">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:paddingTop="10dp"
+                    android:paddingLeft="24dp"
+                    android:paddingRight="24dp"
+                    android:weightSum="1">
+
+
+                    <Switch
+                        android:id="@+id/simpleSwitch1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="5dp"
+                        android:checked="false"
+                        android:text="Record"
+                        android:textOff="Record Off"
+                        android:textOn="Record On"
+                        android:padding="5dp"
+                        android:textColor="#212121"
+                        android:shadowColor="#eef0f1"
+                        android:shadowRadius="2"
+                        android:shadowDx="1"
+                        android:shadowDy="1"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:layout_weight="0.5"
+                        android:gravity="center"
+                       />
+
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+        <Switch
+            android:id="@+id/simpleSwitch2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:checked="false"
+            android:gravity="center"
+            android:text="Record"
+            android:textColor="#2e2c2c"
+            android:textOff="Record Off"
+            android:textOn="Record On"
+            android:textSize="20sp"
+            android:padding="5dp"
+            android:layout_weight="0.69"
+            android:visibility="invisible"
+        />
+
+     <!--   <android.support.v7.widget.CardView
+            android:id="@+id/card_view11"
+            android:layout_width="fill_parent"
+            android:layout_height="110dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            card_view:cardCornerRadius="2dp"
+            card_view:contentPadding="10dp">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:textSize="15sp"
+                    android:textColor="#162a64"
+                    android:id="@+id/resul"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:text= " thanks"
+                    tools:layout_marginBottom="5dp"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/showarray"
+                    android:visibility="invisible"
+                    />
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/actarray"
+                    android:visibility="invisible"
+                    />
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>    -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:textStyle="bold">
+
+            <android.support.v7.widget.AppCompatButton
+                android:layout_margin="10dp"
+                android:background="@drawable/buttonshape"
+                android:textColor="#0d0d0d"
+                android:id="@+id/detail"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:padding="12dp"
+                android:text="Show your details"
+                android:layout_gravity="center_vertical|center_horizontal"
+                style="?android:attr/borderlessButtonStyle"
+                android:textSize="15sp"
+                android:shadowColor="#A8A8A8"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <EditText
+            android:text="Your activity"
+            android:id="@+id/usernam"
+            android:visibility="invisible"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#4169E1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:layout_centerInParent="true" />
+        <EditText
+            android:text="select your activity:"
+            android:id="@+id/editText1"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#4169E1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:layout_centerInParent="true"
+            android:visibility="invisible"/>
+        <EditText
+            android:text="select your activity:"
+            android:id="@+id/posi"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#4169E1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:layout_centerInParent="true"
+            android:visibility="invisible"/>
+
+        <EditText
+            android:text="-------Thanks---------- "
+            android:id="@+id/passwrd"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            android:textColor="#4169E1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:layout_centerInParent="true" />
+    </LinearLayout>
+
+</ScrollView>

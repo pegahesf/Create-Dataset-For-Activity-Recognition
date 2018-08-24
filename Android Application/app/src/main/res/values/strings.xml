@@ -1,0 +1,16 @@
+<resources>
+    <string name="title_activity_signup">SignupActivity</string>
+    <string name="title_activity_sensoractivity">sensoractivity</string>
+    <string name="action_help">help</string>
+    <string name="action_about">about</string>
+    <!-- Strings related to login -->
+    <string name="title_activity_makedata">MakedataActivity</string>
+    <string name="title_activity_recognition">recognitionActivity</string>
+    <string name="title_activity_pedometer">pedometer</string>
+    <string name="title_activity_showdetail">showdetail</string>
+    <string name="title_activity_deviceinfo">deviceinfo</string>
+    <string name="title_activity_help2">help2</string>
+    <string name="title_activity_about2">About2</string>
+    <string name="title_activity_make2data">make2data</string>
+    <string name="title_activity_onlinelearning">onlinelearning</string>
+</resources>

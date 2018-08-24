@@ -1,0 +1,40 @@
+did,sname,svendor,sversion,sresolution,spower,smaxrange,mobilemodel
+1000,K330 Acceleration Sensor,STMicroelectronics,1,5.99E-04,0.25,19.6133,GT-I9500
+1001,K330 Gyroscope Sensor,STMicroelectronics,1,3.05E-04,6.1,8.726646,GT-I9500
+1002,K330 Acceleration Sensor,STMicroelectronics,1,5.99E-04,0.25,19.6133,GT-I9500
+1003,K330 Acceleration Sensor,STMicroelectronics,1,5.99E-04,0.25,19.6133,GT-I9500
+1004,BMI160 Accelerometer,BOSCH,1173700,0.001190186,0.18,39.22661,STH100-2
+1005,BMI160 Gyroscope,BOSCH,1173700,0.001068115,0.9,34.906586,STH100-2
+1006,K330 Gyroscope Sensor,STMicroelectronics,1,3.05E-04,6.1,8.726646,GT-I9500
+1007,K330 Gyroscope Sensor,STMicroelectronics,1,3.05E-04,6.1,8.726646,GT-I9500
+1008,K6DS3TR Acceleration Sensor,STM,1,0.001197101,0.25,39.2266,SM-N920C
+1009,K6DS3TR Acceleration Sensor,STM,1,0.001197101,0.25,39.2266,SM-N920C
+1010,K6DS3TR Gyroscope Sensor,STM,1,0.001221731,6.1,34.906586,SM-N920C
+1011,MPU6500 Acceleration Sensor,Invensense,1,0.001197101,0.25,39.2266,SM-G920F
+1012,MPU6500 Acceleration Sensor,Invensense,1,0.001197101,0.25,39.2266,SM-G920F
+1013,gyroscope-bmi160,bosch,1,1.75E-05,6.1,34.906586,FRD-L09
+1014,K330 Gyroscope Sensor,STMicroelectronics,1,3.05E-04,6.1,8.726646,GT-I9500
+1015,K330 Gyroscope Sensor,STMicroelectronics,1,3.05E-04,6.1,8.726646,GT-I9500
+1016,K330 Acceleration Sensor,STMicroelectronics,1,5.99E-04,0.25,19.6133,GT-I9500
+1017,K330 Acceleration Sensor,STMicroelectronics,1,5.99E-04,0.25,19.6133,GT-I9500
+1018,K330 Gyroscope Sensor,STMicroelectronics,1,3.05E-04,6.1,8.726646,GT-I9500
+1019,K330 Acceleration Sensor,STMicroelectronics,1,5.99E-04,0.25,19.6133,GT-I9500
+1020,K330 Gyroscope Sensor,STMicroelectronics,1,3.05E-04,6.1,8.726646,GT-I9500
+1021,K2HH Acceleration ,STM,1,0.001197101,0.13,39.2266,SM-G570F
+1022,K6DS3TR Gyroscope Sensor,STM,1,0.001221731,6.1,34.906586,SM-N920C
+1023,K330 Gyroscope Sensor,STMicroelectronics,1,3.05E-04,6.1,8.726646,GT-I9500
+1024,BMI160 Accelerometer,BOSCH,1173700,0.001190186,0.18,39.22661,STH100-2
+1025,MPU6500 Gyroscope Sensor,Invensense,1,0.001065265,6.1,34.906586,SM-G920F
+1026,K330 Acceleration Sensor,STMicroelectronics,1,5.99E-04,0.25,19.6133,GT-I9500
+1027,K330 Gyroscope Sensor,STMicroelectronics,1,3.05E-04,6.1,8.726646,GT-I9500
+1028,K330 Acceleration Sensor,STMicroelectronics,1,5.99E-04,0.25,19.6133,GT-I9500
+1029,K2HH Acceleration ,STM,1,0.001197101,0.13,39.2266,SM-G570F
+1030,K330 Gyroscope Sensor,STMicroelectronics,1,3.05E-04,6.1,8.726646,GT-I9500
+1031,MPU6500 Gyroscope Sensor,Invensense,1,0.001065265,6.1,34.906586,SM-G920F
+1032,accelerometer-bmi160,bosch,1,0.009576807,0.23,78.4532,FRD-L09
+1033,K330 Gyroscope Sensor,STMicroelectronics,1,3.05E-04,6.1,8.726646,GT-I9500
+1034,K330 Acceleration Sensor,STMicroelectronics,1,5.99E-04,0.25,19.6133,GT-I9500
+1035,K330 Acceleration Sensor,STMicroelectronics,1,5.99E-04,0.25,19.6133,GT-I9500
+1036,K330 Gyroscope Sensor,STMicroelectronics,1,3.05E-04,6.1,8.726646,GT-I9500
+1037,K330 Acceleration Sensor,STMicroelectronics,1,5.99E-04,0.25,19.6133,GT-I9500
+1038,K330 Gyroscope Sensor,STMicroelectronics,1,3.05E-04,6.1,8.726646,GT-I9500

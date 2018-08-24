@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/back"
+    >
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/show1"
+        android:background="#ccfcfad2"
+        />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_marginTop="100dp"
+        android:background="@android:color/holo_red_dark"/>
+    <TextView
+        android:textSize="15sp"
+        android:textColor="#162a64"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:text="Select your Activity:"
+        tools:layout_marginBottom="5dp"
+        android:textStyle="bold" />
+
+
+    <Spinner
+        android:id="@+id/selectspinner1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:background="#c0fffffe"
+
+
+        />
+    <Button
+        android:id="@+id/activelearning1"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#171629"
+        android:background="#d0f2f2"
+        android:text="click to adaptmodel"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_marginTop="280dp"
+        android:background="@android:color/holo_red_dark"/>
+
+
+
+
+</android.support.design.widget.CoordinatorLayout>
+

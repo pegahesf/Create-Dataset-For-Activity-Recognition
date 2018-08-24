@@ -1,0 +1,19 @@
+@relation myfinaldataset-weka.filters.unsupervised.attribute.Remove-R11-18-weka.filters.unsupervised.attribute.Remove-R7-9-weka.filters.unsupervised.attribute.Remove-R5-6-weka.filters.unsupervised.attribute.Remove-R1
+
+@attribute accx numeric
+@attribute accy numeric
+@attribute accz numeric
+@attribute class {Walking,Sitting,Standing,using.mobile}
+
+
+@data
+-0.62968,1.1965,9.30566,?
+-0.68474,1.4042,9.43316,?
+0.46747,0.53211,9.42537,?
+1.52092,11.38802,2.80421,?
+2.72879,8.98484,4.36702,?
+2.03387,7.1419,3.97019,?
+-0.40402,9.72704,0.47405,?
+-0.40642,9.76595,1.03669,?
+-0.90621,5.34027,7.82365,?
+-1.16119,5.6557,7.19936,?

@@ -1,0 +1,54 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.RandomForest -P 100 -I 100 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1
+Relation:     activity_recognition_PAMS01-weka.filters.unsupervised.attribute.Remove-R1-2,63-67
+Instances:    902
+Attributes:   121
+              [list of attributes omitted]
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+RandomForest
+
+Bagging with 100 iterations and base learner
+
+weka.classifiers.trees.RandomTree -K 0 -M 1.0 -V 0.001 -S 1 -do-not-check-capabilities
+
+Time taken to build model: 0.39 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         806               89.357  %
+Incorrectly Classified Instances        96               10.643  %
+Kappa statistic                          0.8647
+Mean absolute error                      0.0785
+Root mean squared error                  0.1691
+Relative absolute error                 34.4614 %
+Root relative squared error             50.1376 %
+Total Number of Instances              902     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.962    0.000    1.000      0.962    0.980      0.979    0.999     0.991     Sitting
+                 0.973    0.000    1.000      0.973    0.986      0.985    1.000     0.999     Standing
+                 0.893    0.016    0.852      0.893    0.872      0.859    0.988     0.943     Running
+                 0.976    0.077    0.880      0.976    0.925      0.882    0.994     0.989     Walking
+                 0.709    0.032    0.783      0.709    0.744      0.705    0.961     0.783     DownStairs
+                 0.704    0.014    0.880      0.704    0.783      0.761    0.961     0.833     UpStairs
+                 0.968    0.004    0.968      0.968    0.968      0.964    0.998     0.990     cycling
+Weighted Avg.    0.894    0.036    0.893      0.894    0.891      0.865    0.986     0.937     
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   <-- classified as
+  75   0   0   1   2   0   0 |   a = Sitting
+   0  72   0   1   0   1   0 |   b = Standing
+   0   0  75   2   6   1   0 |   c = Running
+   0   0   1 322   2   4   1 |   d = Walking
+   0   0  11  20  90   5   1 |   e = DownStairs
+   0   0   1  19  13  81   1 |   f = UpStairs
+   0   0   0   1   2   0  91 |   g = cycling
+
